@@ -7,7 +7,7 @@ class RequirementView extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-
+      height: 600,
       padding: EdgeInsets.only(top: 10),
       decoration: BoxDecoration(
         borderRadius: BorderRadius.only(topRight: Radius.circular(45),topLeft: Radius.circular(45)),
@@ -84,9 +84,12 @@ class RequirementView extends StatelessWidget {
                     children: [
                       CircleAvatar(
                         backgroundColor: Colors.black,
-                        maxRadius: 2,
+                        minRadius: 4,
                       ),
-                      Text(dataList['req'][index],style: TextStyle(height: 2),)
+                      Padding(
+                        padding: const EdgeInsets.only(left: 10),
+                        child: Text(dataList['req'][index],style: TextStyle(height: 2),),
+                      )
                     ],
                   );
                 },
