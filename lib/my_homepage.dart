@@ -57,7 +57,7 @@ class MyHomePage extends StatelessWidget {
         child: Row(
           //children inside bottom appbar
           mainAxisSize: MainAxisSize.max,
-          mainAxisAlignment: MainAxisAlignment.spaceBetween,
+          mainAxisAlignment: MainAxisAlignment.spaceAround,
           children: <Widget>[
             IconButton(
               icon: Icon(
@@ -73,6 +73,7 @@ class MyHomePage extends StatelessWidget {
               ),
               onPressed: () {},
             ),
+            SizedBox(width: 20,),
             IconButton(
               icon: Icon(
                 Icons.menu_book,

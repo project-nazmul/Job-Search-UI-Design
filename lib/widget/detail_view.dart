@@ -7,10 +7,10 @@ class DetailView extends StatelessWidget {
   final List dataItem = [
     {'req':['fhuh jfkejffhuh jfkejf jdfjc hj jdfjc hj','tswgufhuh jfkejf jdfjc hj uwi suwi','fdfgds hyyt rer','gjj yufhuh jfkejf jdfjc hjyg ty uiy'],'name':'Airbnb Inc,','title':'VP Business Intelligence','location':'Harfde Sfhk\nCanada','logo':'assets/images/airbnb_logo.png'},
     {'req':['dfhg khjjgy jdfjc hj','khghfg uwi suwi','tffd hyyt rer','fi yufhuh jfkejf jdfjc hjyg ty uiy'],'name':'Google Inc,','title':'Principle Vp Ocean','location':'Gefor Tffhk\nUnited State','logo':'assets/images/google_logo.png'},
-    {'req':['ghhy jfhuh jfkejf jdfjc hjfkejf jdfjc hj','qwrr uwi suwi','loifhuh jfkejf jdfjc hjiu hyyt rer','gjj yuyg ty uiy'],'name':'Airbnb Inc,','title':'VP Business Intelligence','location':'Harfde Sfhk\nCanada','logo':'assets/images/airbnb_logo.png'},
+    {'req':['ghhy jfhuh jfkejf jdfjc hjfkejf jdfjc hj','qwrr uwi suwi','loifhuh jfkejf jdfjc hjiu hyyt rer','gjj yuyg ty uiy'],'name':'Linkedin Inc,','title':'VP Business Intelligence','location':'Harfde Sfhk\nCanada','logo':'assets/images/linkedin_logo.png'},
     {'req':['thy jfkejf jdfjc hj','drygy uwi suwi','poi hyyt rer','gjj yfhuh jfkejf jdfjc hjuyg ty uiy'],'name':'Google Inc,','title':'Principle Vp Ocean','location':'Gefor Tffhk\nUnited State','logo':'assets/images/google_logo.png'},
     {'req':['cgh jffhuh jfkejf jdfjc hjkejf jdfjc hj','were uwi suwi','poi hyyt rer','vg5 yuyg ty uiy'],'name':'Airbnb Inc,','title':'VP Business Intelligence','location':'Harfde Sfhk\nCanada','logo':'assets/images/airbnb_logo.png'},
-    {'req':['piuy jffhuh jfkejf jdfjc hjkejf jdfjc hj','asfddf uwi suwi','drg hfhuh jfkejf jdfjc hjyyt rer','gjj yuyg ty uiy'],'name':'Google Inc,','title':'Principle Vp Ocean','location':'Gefor Tffhk\nUnited State','logo':'assets/images/google_logo.png'},
+    {'req':['piuy jffhuh jfkejf jdfjc hjkejf jdfjc hj','asfddf uwi suwi','drg hfhuh jfkejf jdfjc hjyyt rer','gjj yuyg ty uiy'],'name':'Linkedin Inc,','title':'Principle Vp Ocean','location':'Gefor Tffhk\nUnited State','logo':'assets/images/linkedin_logo.png'},
   ];
   @override
   Widget build(BuildContext context) {
